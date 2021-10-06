@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang= "es">
+
+
+<head>
+<title>Reto 8- Catelera</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+<link rel ="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Repelis</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link"  href="index.html">Cartelera</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Comentarios</a>
+              </li>
+         
+            
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+
+      <div class="container">
+        <br>
+        <h1>Comentarios</h1>
+        <form>
+
+          <fieldset>
+              <legend>Dejanos tu opinion!</legend>
+
+              <form>
+
+                <p><label>Nombre: <input type="text" name="username" required></label></p> 
+            
+                  <p><label>Película a Calificar : <input type="text" name="motivo" list="motivo"></label></p>
+                      <datalist id="motivo">
+                          <option value="Parasite "> </option>
+                          <option value="Mad Max : Fury Road"></option>
+                          <option value="Death Stranding"></option>
+                        
+                      </datalist>
+
+                      <p><label>Comentario: <input type="text" name="username" ></label></p> 
+
+                      <p><label>Rating: </label></p>
+                      <ul class="rate-area">
+                        <input type="radio" id="5-star" name="crating" value="5">
+                        <label for="5-star" title="Amazing">5 stars</label>
+                        <input type="radio" id="4-star" name="crating" value="4">
+                        <label for="4-star" title="Good">4 stars</label>
+                        <input type="radio" id="3-star" name="crating" value="3">
+                        <label for="3-star" title="Average">3 stars</label>
+                        <input type="radio" id="2-star" name="crating" value="2">
+                        <label for="2-star" title="Not Good">2 stars</label>
+                        <input type="radio" id="1-star" required=""
+                        name="crating" value="1" aria-required="true">
+                        <label for="1-star" title="Bad">1 star</label>
+                      </ul>
+                      <br>
+  
+              </form>
+
+             
+    
+              <p><button type="submit">Enviar</button></p>
+         
+          </fieldset>
+
+         
+      </form>
+
+
+  
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
