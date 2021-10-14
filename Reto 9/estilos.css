@@ -1,0 +1,38 @@
+*{
+    
+    color: white;
+}
+body{
+   
+    background-color: rgb(90, 204, 189);
+    
+
+}
+
+header{
+    margin-top: 50px;
+}
+
+
+h2{
+color: rgb(255, 209, 60);
+
+}
+
+
+.subtitle{
+
+    font-size: 35px;
+
+}
+
+.container-sm{
+    width: 40%;
+    float: left;
+    padding: 100px;
+}
+
+.dodo{
+    width: 100%;
+    background-color: white;
+}
